@@ -1,2 +1,2 @@
 # Porradaria_Insana
-Um Jogo simples criado na Linguagem C
+A simple game created in the C language
