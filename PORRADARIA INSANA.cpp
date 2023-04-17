@@ -5,7 +5,7 @@
 #include<string.h>
 #include <conio.h>
 
-//Função cor da Tela
+//Funï¿½ï¿½o cor da Tela
 void cor(void){
     system("color F0"); //Cor de Fundo e cor das Letras
 	system("mode 100,30"); //Largura e Altura da Tela
@@ -16,7 +16,7 @@ char usuario(char nomeUsu[20]){
 	printf("Usuario: ");
 	fgets(nomeUsu, 20, stdin);
 	
-	return nomeUsu[20];	//Retornara o Nome de Usuário
+	return nomeUsu[20];	//Retornara o Nome de Usuï¿½rio
 }
 
 char senha(char se[20]){
@@ -27,7 +27,7 @@ char senha(char se[20]){
 	return se[20]; //Retornara a Senha
 }
 
-//Função da Escolha do nome do Usuário
+//Funï¿½ï¿½o da Escolha do nome do Usuï¿½rio
 char nomeJogador(char nome[37]){
 	
 	printf("=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n");
@@ -42,7 +42,7 @@ char nomeJogador(char nome[37]){
 	return nome[37];
 }
 
-//Função da Escolha do nome do Usuário
+//Funï¿½ï¿½o da Escolha do nome do Usuï¿½rio
 char nomeComputador(int op){
 	
 	char nomePC[20];
@@ -70,7 +70,7 @@ char nomeComputador(int op){
 	return nomePC[20];
 }
 
-//Função da Batalha 
+//Funï¿½ï¿½o da Batalha 
 void batalha(void){
 	
 	int escolhaClasse, escolhaClassePC;
@@ -81,11 +81,12 @@ void batalha(void){
 	int hpUsuario = 100;
 	int hpComputador = 100;
 	int mpUsuario = 100, mpComputador = 100;
+	int testeUsu = 100;
 	
-	//Função da Escolha do nome do Usuário
+	//Funï¿½ï¿½o da Escolha do nome do Usuï¿½rio
 	nomeJogador(nome);
 	
-	//Função da Escolha do nome do Computador
+	//Funï¿½ï¿½o da Escolha do nome do Computador
 	nomeComputador(op);
 	
 	system("pause");
@@ -202,7 +203,7 @@ void batalha(void){
 					}	
 				break;	
 				case 2:
-					//Classe Ladrão Usuario
+					//Classe Ladrï¿½o Usuario
 					printf("[1] - Adagas Duplas\n");
 					printf("[2] - Ivestida Sombria\n");
 					printf("[3] - Adaga Cortante\n");
@@ -354,7 +355,7 @@ void batalha(void){
 					
 				break;	
 				case 2:
-					//Classe Ladrão Computador
+					//Classe Ladrï¿½o Computador
 					srand(time(NULL));
 					escolhaPC = rand() % 3 + 1;
 					
@@ -488,7 +489,7 @@ int main(){
 	int resp;
 	char nome[25];
 	
-	//Função cor da Tela
+	//Funï¿½ï¿½o cor da Tela
 	void cor(void);
 	cor();
 	
@@ -504,7 +505,7 @@ int main(){
 
 	printf("				BEM - VINDO A PORRADARIA INSANA\n\n");
 	
-	//Função Perfil
+	//Funï¿½ï¿½o Perfil
 	printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
 	printf("Meu Perfil\n");
 	printf("Usuario: %s", usu);
@@ -542,7 +543,7 @@ int main(){
 	system("pause");
 	system("cls");
 	
-	//Função da Batalha
+	//Funï¿½ï¿½o da Batalha
 	void batalha(void);
 	batalha();
 	
