@@ -81,9 +81,8 @@ void batalha(void){
 	int hpUsuario = 100;
 	int hpComputador = 100;
 	int mpUsuario = 100, mpComputador = 100;
-	int testeUsu = 100;
 	
-	//Fun��o da Escolha do nome do Usu�rio
+	//Função da Escolha do nome do Usuário
 	nomeJogador(nome);
 	
 	//Fun��o da Escolha do nome do Computador
