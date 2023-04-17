@@ -5,7 +5,7 @@
 #include<string.h>
 #include <conio.h>
 
-//Fun��o cor da Tela
+//Função cor da Tela
 void cor(void){
     system("color F0"); //Cor de Fundo e cor das Letras
 	system("mode 100,30"); //Largura e Altura da Tela
@@ -27,7 +27,7 @@ char senha(char se[20]){
 	return se[20]; //Retornara a Senha
 }
 
-//Fun��o da Escolha do nome do Usu�rio
+//Função da Escolha do nome do Usu�rio
 char nomeJogador(char nome[37]){
 	
 	printf("=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n");
@@ -42,7 +42,7 @@ char nomeJogador(char nome[37]){
 	return nome[37];
 }
 
-//Fun��o da Escolha do nome do Usu�rio
+//Função da Escolha do nome do Usu�rio
 char nomeComputador(int op){
 	
 	char nomePC[20];
@@ -85,7 +85,7 @@ void batalha(void){
 	//Função da Escolha do nome do Usuário
 	nomeJogador(nome);
 	
-	//Fun��o da Escolha do nome do Computador
+	//Função da Escolha do nome do Computador
 	nomeComputador(op);
 	
 	system("pause");
